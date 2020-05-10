@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Algoritmos - CORTE</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="sketch.js"></script>
+	<script src="img/mesa2.jpg"></script>
+
+	<style>
+		body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+		background: url("img/mesa2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+        color: rgb(255, 255, 255)
+      }
+		canvas {
+			margin:auto;	
+		}
+
+		.texto{
+			text-align: center;
+		}
+
+		.div-button{
+			margin-top: 10px;
+		}
+		.title {
+        text-align: center;
+        margin-top: 10px;
+
+      }
+
+      .title p {
+        display: inline-block;
+        margin: 0 auto;
+      }
+
+		
+	</style>
+</head>
+<body>
+
+	<div class="texto">
+		<p>EN CUANTAS PARTES QUIERES REPARTIR LA PIZZA?</p>
+		<input type="number" id="input-number">
+		<div class="div-button">
+			<button onclick="CortarP()">Cortar</button>
+		</div>
+	</div>
+
+	<div class="title">
+        <p>Algoritmo Punto Pendiente |</p>
+        <p>Algoritmo DDA |</p>
+        <p>Algoritmo Bresenham</p>
+      </div>
+</body>
+</html>
