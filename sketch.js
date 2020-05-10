@@ -102,7 +102,7 @@ function ADDA(x1, y1, x2, y2) {
 
   
 }
-//Usar solo enteros!
+
 function ABresenham(x1, y1, x2, y2) {
 
   //Variables para guardar los pasos en x/y
